@@ -1,0 +1,317 @@
+
+h1 {
+    font-family: Source Sans Pro, sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #212529;
+}
+
+a {
+    color: #212529;
+}
+
+img {
+    padding: 20px;
+}
+.nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+
+.nav-link {
+    color: #212529;
+}
+
+.nav-link:hover {
+    color: #FFDC34;
+}
+
+@media screen and (max-width: 1024px) {
+    #mainNav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #mobileNav {
+        display: none;
+    }
+}
+
+
+#navbarToggleExternalContent {
+    list-style: none;
+    font-family: Source Sans Pro, sans-serif;
+    color: #212529;
+    font-size: 2rem;
+    background-color: #FFDC34;
+    text-align: center;
+}
+
+#navbarToggleExternalContent a:hover {
+    color: #fff;
+}
+
+div.collapse {
+    list-style: none;
+    font-family: Source Sans Pro, sans-serif;
+    color: #212529;
+    font-size: 2rem;
+}
+
+#main {
+    background-color: #FFDC34;
+    background-color: #fff;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+
+#mobileMenuBtn {
+    border-radius: 50px;
+    color: #fff;
+}
+
+#CVbtn {
+    border-radius: 50px;
+    color: #fff;
+}
+
+#CVbtn:hover {
+    color: #FFDC34;
+}
+
+img.card-img-top {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.card {
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+
+#cardbtn {
+    border-radius: 50px;
+    color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+#cardbtn:hover {
+    color: #FFDC34;
+}
+
+/* i:hover {
+    color: #FFDC34;
+} */
+
+#one {
+    padding-top: 5rem;
+    padding-bottom: 30rem;
+}
+
+#one, span {
+    font-size: 8rem;
+        color: #212529;
+        font-family: Source Sans Pro, sans-serif;
+ }
+
+@media screen and (max-width: 900px) {
+    #one, span {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    #one, span {
+      font-size: 3rem;
+    }
+  }
+  
+  
+
+ #two {
+     justify-content: center;
+     align-items:stretch;
+     flex-wrap: wrap;
+ }
+
+ #projectsection {
+    background-color: #FFDC34;
+ }
+
+ 
+
+ #resumefooter {
+    background-color: #FFDC34;
+ }
+ .container {
+     align-items: center;
+ }
+
+ p {
+     margin: 0;
+ }
+
+.sectiontitles{
+    position: relative;
+    text-align: center;
+}
+
+.skillsbtn {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #212529;
+    padding: 5px;
+    /* margin: 0 auto; */
+    width: 3000px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-inline: 5px;
+}
+
+.skillsbtn:hover {
+    color: #FFDC34;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .skillsbtn {
+        width: 110px;
+    }
+}
+
+.whitep {
+    color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+    
+}
+
+p.card-text {
+    padding-bottom: 20px;
+}
+
+.cvdownloadbtn {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #212529;
+    width: 280px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cvdownloadbtn:hover {
+    color: #FFDC34;
+    cursor: pointer;
+}
+
+#contactIcons {
+    text-align: center;
+    color:#212529;
+    font-size: 80px;
+    background-color: fff;
+}
+
+#contactIcons, a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+div.col-sm-4 {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+*,
+ *:after,
+ *::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ 
+section {
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ /* General styles and layout */
+ 
+
+ 
+ .container {
+     overflow: hidden;
+     /* we don't want the pseudo-elements sticking out */
+ }
+ 
+ .container svg {
+     display: block;
+ }
+ 
+
+ /*** Individual section styles and separators ***/
+ 
+ /* Common style for pseudo-elements */
+ section::before,
+ section::after {
+     position: absolute;
+     content: '';
+     pointer-events: none;
+ }
+ 
+ 
+ /* Curves */
+ #curveUpColor path,
+ #curveDownColor path {
+     fill: #FFDC34;
+     stroke: #FFDC34;
+ }
+ 
+
+ 
+ /* Media Queries for the layout */
+ @media screen and (max-width: 68em) {
+     section {
+         font-size: 80%;
+     }
+ }
+ 
+ @media screen and (max-width: 54em) {
+     .column {
+         display: block;
+         width: 100% !important;
+     }
+ 
+     .text:first-child,
+     .text:nth-child(2) {
+         text-align: center;
+     }
+ 
+     .icon {
+         margin: 0 auto;
+     }
+ 
+     .col-2 .column:first-child .icon {
+         margin: 0 auto 50px;
+     }
+ 
+     .col-2 .column:nth-child(2) .icon {
+         margin: 50px auto 0;
+     }
+ }
+
+

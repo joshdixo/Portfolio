@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="./CSS/stlyes.css" rel="stylesheet" type="text/css">
+    <link href="./scss/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+    <head>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script>
+          ScrollReveal({ reset: true });
+      </script>
+  </head>
+
+    <title>Josh Dixon - Portfolio</title>
+  </head>
+  
+  <body>
+      <section id="main" class="img-fluid" style="background-image: url('./images/hero.jpg')">
+        
+    <ul class="nav" id="mainNav">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyProjects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyAbout">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyContact">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a id="CVbtn" class="nav-link btn-dark" target="_blank" href="./Documents/JoshDixonCV.pdf">View CV</a>
+          </li>
+      </ul>
+
+
+
+    <!-- Mobile nav bar -->
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyProjects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyAbou">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyContact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="./Documents/JoshDixonCV.pdf">View CV</a>
+        </li>
+      </div>
+    </div>
+    <nav class="navbar" id="mobileNav">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <a id="mobileMenuBtn" class="nav-link btn-dark" href="#"><i class="fas fa-bars"></i></i></a>
+        </button>
+      </div>
+    </nav>
+
+
+
+
+    <div id="one" class="container-sm">
+        <p>I'm Josh,</p>
+      <span is="type-async" id="type-text">...</span>
+      <span class="blinking-cursor">_</span>
+    </div>
+
+    </section>
+    
+</div>
+
+<svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 100 C 20 0 50 0 100 100 Z"/>
+</svg>
+
+</section>
+
+    <section id="projectsection">
+
+        <h1 class="headings" id="scrollspyProjects">Projects</h1>
+        <div id="two" class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="min-width: 300px;">
+                    <img src="./images/travelchecklist.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Travel Checklist</h5>
+                      <p class="card-text">Custom travel checklist built using the React framework.</p>
+                      <a id="cardbtn" href="https://xesrf.csb.app/" target="_blank" class="btn btn-dark">Preview</a>
+                      <a id="cardbtn" href="https://github.com/joshdixo/TodoList-React" target="_blank" class="btn btn-dark">View Code</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="min-width: 300px;">
+                    <img src="./images/themasters.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">The Masters</h5>
+                      <p class="card-text">Responsive page for the Masters golf tournament website. Using
+                        the Materialize UI component library.
+                      </p>
+                      <a id="cardbtn" href="https://masterswebsite.netlify.app/" target="_blank" class="btn btn-dark">Preview</a>
+                      <a id="cardbtn" href="https://github.com/joshdixo/MastersWebsite" target="_blank" class="btn btn-dark">View Code</a>
+                    </div>
+                  </div>
+              </div>
+              <!-- <div class="col">
+                <div class="card" style="min-width: 300px;">
+                    <img src="./images/travelchecklist.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a id="cardbtn" href="#" class="btn btn-dark">Preview</a>
+                      <a id="cardbtn" href="#" class="btn btn-dark">View Code</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="min-width: 300px;">
+                        <img src="./images/travelchecklist.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a id="cardbtn" href="#" class="btn btn-dark">Preview</a>
+                        <a id="cardbtn" href="#" class="btn btn-dark">View Code</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="min-width: 300px;">
+                        <img src="./images/travelchecklist.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a id="cardbtn" href="#" class="btn btn-dark">Preview</a>
+                      <a id="cardbtn" href="#" class="btn btn-dark">View Code</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="min-width: 300px;">
+                        <img src="./images/travelchecklist.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a id="cardbtn" href="#" class="btn btn-dark">Preview</a>
+                      <a id="cardbtn" href="#" class="btn btn-dark">View Code</a>
+                        </div>
+                      </div>
+                </div>
+              </div> -->
+          </div>
+
+
+    </section>
+    
+    <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"/>
+    </svg>
+
+    <section id="aboutsection">
+      <h1 class="headings" id="scrollspyAbout">About Me</h1>
+  </br>
+</br>
+</br>
+
+
+
+<div class="clearfix">
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="imgJosh" src="./images/JoshDixon.png">
+      <a href="./Documents/JoshDixonCV.pdf" target="_blank"><h1 class="cvdownloadbtn" id="scrollspyResume">View my CV</h1></a> 
+    </div>
+    <div class="col-sm-8">
+      <h2 class="sectiontitles"><strong>In a nutshell</strong></h2>
+      <h5 class="sectiontitles">I'm a Nottingham based web developer and I create modern, responsive and user-friendly
+        web experiences. I'm a creative individual with a passion for all things design. On the weekends
+        i'm an internationally published sports photographer with clients in the Premier League and EFL Championship.
+      </h5>
+
+    </br></br>
+
+      <div class="row">
+        <h2 class="sectiontitles"><strong>Skills</strong></h2>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-html5"></i>
+          <p class="whitep">HTML</p>
+        </div>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-css3-alt"></i>
+          <p class="whitep">CSS</p>
+        </div>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-js-square"></i>
+          <p class="whitep">JS</p>
+        </div>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-bootstrap"></i>
+          <p class="whitep">Bootstrap</p>
+        </div>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-react"></i>
+          <p class="whitep">React</p>
+        </div>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-node-js"></i>
+          <p class="whitep">Node.js</p>
+        </div>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-git-alt"></i>
+          <p class="whitep">Git</p>
+        </div>
+        <div class="col-sm skillsbtn">
+          <i class="fab fa-figma"></i>
+          <p class="whitep">Figma</p>
+        </div>
+        <!-- <div class="col-sm skillsbtn">
+          <i class="fab fa-js-square"></i>
+          <p class="whitep">JS</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+</div>
+
+
+
+  </section>
+
+    
+
+
+
+    </section>
+
+
+
+
+
+
+    <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"/>
+    </svg>
+
+
+    <section id="resumefooter">
+      <h1 class="headings" id="scrollspyContact">Contact</h1>
+    </br>
+  </br>
+  </br>
+      <div class="container">
+      <div class="row">
+        <div class="col" id="contactIcons">
+          <a href="mailto:joshdixon1995@hotmail.co.uk" target="_blank"><i class="fas fa-envelope"></i></a>
+          
+        </div>
+        <div class="col" id="contactIcons">
+          <a href="https://www.linkedin.com/in/joshdixon" target="_blank"><i class="fab fa-linkedin"></i></a>
+         
+        </div>
+        <div class="col contactIconsReveal" id="contactIcons">
+          <a href="https://github.com/joshdixo" target="_blank"><i class="fab fa-github"></i></a>
+        
+        </div>
+        
+        
+      </div>
+
+        
+    </br>
+</br>
+</br>
+</br>
+
+
+
+
+    </section>
+
+
+    <script src="./JS/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+  </body>
+  
+
+</html>
